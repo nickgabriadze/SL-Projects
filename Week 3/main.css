@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+  font-family: "Quicksand", "sans-serif";
+  box-shadow: 0 0 7px 2px #cfcfcf;
+  border-radius: 6px;
+  gap: 1rem;
+  width: 600px;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.gender-options,
+.interests-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.actual-options {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.actual-options div {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+}
+
+.range {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.btn-submit button {
+  width: 100%;
+  height: 50px;
+  font-family: "Quicksand", "sans-serif";
+  color: white;
+  font-weight: bold;
+  background-color: #3d8af7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-submit button:hover {
+  background-color: #3b76c8;
+}
+
+input {
+  border: 1px solid rgb(177, 177, 177);
+  width: 100%;
+  font-family: "Quicksand", "sans-serif";
+  outline-color: transparent;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+select {
+  width: 100%;
+  height: 30px;
+  font-size: 1rem;
+  font-family: "Quicksand", "sans-serif";
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+}
+
+input:focus {
+  outline-color: transparent;
+  border: 1px solid rgb(177, 177, 177);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: auto;
+}
+
+input[type="range"]::-webkit-slider-runnable-track,
+input[type="range"]::-moz-range-track {
+  border-radius: 5px;
+  background-color: rgb(177, 177, 177);
+}

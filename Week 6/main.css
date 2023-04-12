@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f8;
+}
+
+.posts-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding: 50px;
+}
+
+.card {
+  -webkit-box-shadow: 0 0 11px -3px #000000;
+  box-shadow: 0 0 11px -3px #000000;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  transition: all 500ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.045);
+  backface-visibility: hidden;
+  cursor: pointer;
+
+}
+
+.post-img {
+  width: 450px;
+  transition: all 500ms ease-in-out;
+}
+
+.post-img img {
+  width: inherit;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.post-img:hover{
+  background-color:#f1f5f8;
+  
+}
+
+.post-img img:hover {
+  transform: scale(0.95);
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.info-txt {
+  word-break: break-all;
+  word-break: keep-all;
+  display: inline-block;
+  font-size: smaller;
+  padding: 20px;
+  padding-top: 10px;
+  height: 73px;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.info p {
+  font-size: smaller;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.read-more {
+  color: rgb(38, 160, 217);
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.title-price > div > h4 {
+  font-size: smaller;
+  
+}
+
+.title-price > div > p:hover{
+  text-align: center;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  color: rgb(16, 116, 36);
+  background-color: inherit; 
+}
+
+.title-price div > p {
+  font-size: small;
+  background-color: #c0e1ed;
+  color: #2ea6d1;
+  padding: auto;
+  border-radius: 3px;
+  width: 70px;
+  text-align: center;
+  height: 20px;
+  transition: all 500ms ease-in-out;
+  backface-visibility: hidden;
+}
+
+.not-interested {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.not-interested button {
+  color: red;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 3px;
+  width: 140px;
+  cursor: pointer;
+}
+
+.our-tours {
+  text-align: center;
+}
+
+
+.our-tours hr {
+  border: none;
+  border-radius: 4px;
+  height: 4px;
+  background-color: #6fbbd7;
+  width: 20%;
+  margin: auto;
+}
+
+.no-more-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1ddf2;
+  padding: 20px;
+  color:#203342;
+  gap: 1rem;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.no-more-left button {
+  border: none;
+  background-color: #89c9fa;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

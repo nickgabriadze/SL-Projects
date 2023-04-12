@@ -1,0 +1,26 @@
+.main-wrapper h1 {
+  color: red;
+}
+
+.main-wrapper h2 {
+  font-style: italic;
+}
+
+.main-wrapper > div > ul > li > ol > li {
+  font-size: smaller;
+}
+
+.main-wrapper img {
+    width: 300px;
+}
+
+.main-wrapper > div > p {
+    display: inline;
+}
+.yellow-p{
+    background-color: yellow;
+}
+
+.blue-p {
+   color: blue;
+}

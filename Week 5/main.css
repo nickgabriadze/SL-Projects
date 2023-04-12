@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&family=Quicksand&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #e8ecf4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+.quiz {
+  font-family: "Poppins", "Quicksand", sans-serif;
+  height: fit-content;
+  width: 600px;
+  box-shadow: 0 0 10px -2px #000000;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 10px;
+}
+
+.questions {
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-weight: 800;
+  word-wrap: break-word;
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.question-area {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answers ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: larger;
+}
+
+.answers > ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Quicksand", sans-serif;
+}
+.answers > ul > li > h4 {
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answers > ul > li > input[type="radio"] {
+  transform: scale(1.2);
+}
+
+.submit-section {
+  width: 100%;
+  background-color: #8e44ad;
+  height: fit-content;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 8px;
+}
+.submit-section > button {
+  border: none;
+  background-color: inherit;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 20px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Homework #3</title>
+  </head>
+  <body>
+    <form id="user-form" class="form-wrapper" onsubmit="checkPass()">
+      <div class="form-title">
+        <h1>Form</h1>
+      </div>
+
+      <div class="name-field">
+        <h4>Name:</h4>
+        <input type="text" minlength="3" required />
+      </div>
+
+      <div class="email-field">
+        <h4>Email:</h4>
+        <input type="email" required />
+      </div>
+
+      <div class="password-field">
+        <h4>Password:</h4>
+        <input type="password" id="initial-pass" required />
+      </div>
+
+      <div class="repeat-password-field">
+        <h4>Confirm Password:</h4>
+        <input type="password" id="confirmed-pass" required />
+      </div>
+
+      <div class="gender-options">
+        <h4>Gender:</h4>
+        <div class="actual-options">
+          <div>
+            <input type="radio" name="gender" />
+            <h5>Male</h5>
+          </div>
+          <div>
+            <input type="radio" name="gender" />
+            <h5>Female</h5>
+          </div>
+          <div>
+            <input type="radio" name="gender" checked />
+            <h5>Other</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="interests-options">
+        <h4>Interests:</h4>
+        <div class="actual-options">
+          <div>
+            <input type="checkbox" />
+            <h5>Sports</h5>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <h5>Music</h5>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <h5>Travel</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="choose-country">
+        <select name="countries" required>
+          <option value="USA">USA</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Denmark">Denmark</option>
+          <option value="Norway">Norway</option>
+        </select>
+      </div>
+
+      <div class="range">
+        <h4>Choose a value:</h4>
+        <input
+          type="range"
+          value="50"
+          min="0"
+          max="100"
+          oninput="this.nextElementSibling.value = this.value"
+        />
+        <output>50</output>
+      </div>
+
+      <div class="btn-submit">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

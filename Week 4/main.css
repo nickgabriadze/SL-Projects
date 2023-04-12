@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Quicksand", "san-serif";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.todo-section {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 10px;
+  padding: 30px;
+  height: fit-content;
+  -moz-box-shadow: 0 0 6px -1px #000000;
+  -webkit-box-shadow: 0 0 6px -1px #000000;
+  box-shadow: 0 0 6px -1px #000000;
+  gap: 1rem;
+}
+
+.input-todo {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 2px solid #9c9c9c;
+}
+
+.add-task {
+  width: 100%;
+  background-color: #50ac54;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+ 
+}
+.each-todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #f0ecec;
+    padding: 20px;
+    height: 90px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.delete-button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+.overflow{
+  height: 180px;
+  overflow-y: scroll;
+  padding: 5px;
+}
