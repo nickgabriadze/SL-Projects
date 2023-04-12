@@ -1,2 +1,2 @@
-# VanillaJS Projects
+# SL Projects
 Stuff that I was assigned to do in Scripting Languages(Course)
