@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins";
+  background-color: aliceblue;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weird-border {
+  width: 80px;
+  margin: auto;
+  height: 4px;
+  background-color: #2596be;
+  border-radius: 10px;
+  border: none;
+}
+
+.outliner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.reviewer-box {
+  width: 650px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 8px;
+  -moz-box-shadow: 0 0 12px -5px #595959;
+  -webkit-box-shadow: 0 0 12px -5px #595959;
+  box-shadow: 0 0 12px -5px #595959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 10px;
+}
+
+.picture-section {
+  z-index: 5;
+  padding-top: 20px;
+  position: relative;
+  height: 160px;
+}
+
+.picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 99999px;
+  z-index: 2;
+}
+
+.quotation-mark {
+  background-color: #49a6e9;
+  border-radius: 100%;
+  padding: 3px;
+  position: relative;
+  top: -300px;
+  left: 5px;
+}
+
+.default-background {
+  background-color: #49a6e9;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -160px;
+  left: 10px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.briefly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.position {
+  color: #67a3d5;
+}
+
+.description p {
+  text-align: center;
+  word-wrap: break-word;
+  word-break: keep-all;
+  padding: 20px;
+  padding-top: 0;
+  height: 8rem;
+  overflow-y: hidden;
+  margin: auto;
+  color: #919396;
+}
+
+.buttons {
+  margin-top: -5rem;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  outline: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.surprise-btn {
+  background-color: #dcf1fa;
+  border-radius: 3px;
+  padding: 3px;
+  text-align: center;
+}
+
+.surprise-btn button {
+  color: #49a6e9;
+}
