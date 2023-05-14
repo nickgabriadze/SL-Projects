@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "phone-model": "Google Pixel 6",
+    "phone-price": 599.99,
+    "phone-img-address": "https://img.zoommer.ge/zoommer-images/thumbs/0156575_google-pixel-6-5g-8128gb-stormy-black_550.jpeg",
+    "phone-quantity": 1
+  },
+  {
+    "id": 2,
+    "phone-model": "iPhone 14 Pro MAX",
+    "phone-price": 1199.99,
+    "phone-img-address": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-deeppurple-select?wid=940&hei=1112&fmt=png-alpha&.v=1663364422362",
+    "phone-quantity": 1
+  },
+  {
+    "id": 3,
+    "phone-model": "Samsung Galaxy S22 Ultra",
+    "phone-price": 999.99,
+    "phone-img-address":"https://cdn.dxomark.com/wp-content/uploads/medias/post-112004/Samsung-Galaxy-S22-Ultra-Snapdragon_Yoast-image-packshot-review-Recovered.jpg",
+    "phone-quantity": 1
+  }
+]
